@@ -182,9 +182,10 @@ header{
 	background: transparent;
 	transition: .5s;
 }
-.container3 button :hover{
+.container3 button:hover{
 	color: white;
 	background-color: #626262;
+	border: 1px solid white;
 }
 /*button end*/
 /*footer start*/
@@ -236,6 +237,10 @@ header{
 	font-size: 14px;
 	text-decoration: none;
 	color: #000000;	
+}
+.footer_icons ul li a:hover{
+	background-color: #626262;
+
 }
 .footer_icons ul li:last-child a{
 	padding-right: 0;
